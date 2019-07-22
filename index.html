@@ -33,18 +33,17 @@
 <p id="demo"></p>
 <h3>Please select which player you are.</h3>
 
-<button onclick="myFunction()">player 1</button>
-<button onclick="myFunction()">player 2</button>
-<button onclick="myFunction()">player 3</button>
-<button onclick="myFunction()">player 4</button>
-<button onclick="myFunction()">player 5</button>
-<button onclick="myFunction()">player 6</button>
-<button onclick="myFunction()">player 7</button>
+<button onclick="myFunction(1)">player 1</button>
+<button onclick="myFunction(2)">player 2</button>
+<button onclick="myFunction(3)">player 3</button>
+<button onclick="myFunction(4)">player 4</button>
+<button onclick="myFunction(5)">player 5</button>
+<button onclick="myFunction(6)">player 6</button>
+<button onclick="myFunction(7)">player 7</button>
 
 <script type="text/javascript">
-  function myFunction(){
-    document.getElementById("demo").innerHTML = "Hello World";
-  }
+  function myFunction(num){
+      document.getElementById("demo").innerHTML = "Hello Player " + num;
 </script>
 
 </body>
