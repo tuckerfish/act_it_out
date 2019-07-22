@@ -30,6 +30,7 @@
 <body>
 
 <h2>Hello!</h2>
+<p id="demo"></p>
 <h3>Please select which player you are.</h3>
 
 <button onclick="myFunction()">player 1</button>
@@ -39,6 +40,12 @@
 <button onclick="myFunction()">player 5</button>
 <button onclick="myFunction()">player 6</button>
 <button onclick="myFunction()">player 7</button>
+
+<script type="text/javascript">
+  function myFunction(){
+    document.getElementById("demo").innerHTML = "Hello World";
+  }
+</script>
 
 </body>
 </html>
